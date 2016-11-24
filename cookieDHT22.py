@@ -9,10 +9,10 @@ import sqlite3
 conn = sqlite3.connect('tweepy.db')
 c = conn.cursor()
 
-API_KEY = '0czHGLaaOx4wkcR0SsPxUYGeZ'
-API_SECRET = 'XiIlziEeaRIuTl8CYoejy00DuFO2AAemu2wKLsVUjXDht8jLku '
+API_KEY = 'WIDmeDxaao1Aaj7RLHcXopxoY'
+API_SECRET = '7hpRCUwESJcLSm75qNJy10Wtii87W9J7uYyFBF3YgFcekpqZil'
 ACCESS_TOKEN = '792094452776972289-FAEZpkgosa6rq2d6NTSUqVBE3R4cgas'
-ACCESS_TOKEN_SECRET = 'vWxytTUJ0IVYj3hL9BnTd5ziz8yZIQo8bVSxTXAGTTT8t '
+ACCESS_TOKEN_SECRET = 'vWxytTUJ0IVYj3hL9BnTd5ziz8yZIQo8bVSxTXAGTTT8t'
 
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
